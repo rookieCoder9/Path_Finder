@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(200, 200, 200);
+  color: black;
+}
+
+.title {
+  font-weight: bolder;
+  margin-right: 2%;
+}
+#mycanvas {
+  box-shadow: 0px 0px 20px 10px gray;
+  background-image: url('img/bg2.png');
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.input {
+  height: 5%;
+  position: relative;
+  background-color: #f9f9f9;
+  width: 7%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.btn:hover:hover {
+  box-shadow: 0 5px 5px black;
+}
+.tutorial {
+  position: absolute;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 50%;
+  height: 70%;
+  border: 2px solid #34495e;
+  border-radius: 4px;
+  text-align: center;
+  float: right;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+h3,
+.h3 {
+  font-size: 40px;
+}
+h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  display: block;
+  font-size: 0.67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#tutorial > h6 {
+  padding: 5px 20px 5px 20px;
+}
+#nextButton {
+  color: #ffffff;
+  background-color: #a3afad;
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+}
+#skipButton {
+  color: #ffffff;
+  background-color: #d41d73;
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+}
+#tutorialCounter {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+}
+#previousButton {
+  color: #ffffff;
+  background-color: #1abc9c;
+  position: absolute;
+  right: 12%;
+  bottom: 2%;
+}
+
+h6,
+.h6 {
+  font-size: 24px;
+}
