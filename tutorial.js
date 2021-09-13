@@ -55,6 +55,8 @@ function pre_pg() {
     }
 }
 function pg0() {
+    
+    document.getElementById("nextButton").innerText = "Next";
     let cnt = document.getElementById("tutorialCounter");
     cnt.innerText = (count + 1) + "/6";
     let img = document.getElementById("tut_image");
